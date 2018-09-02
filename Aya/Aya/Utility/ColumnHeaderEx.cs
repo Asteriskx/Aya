@@ -25,12 +25,7 @@ namespace Aya.Utility
 		/// <param name="width">ヘッダ幅</param>
 		public static ColumnHeader GetColumnHeader(string text, int width)
 		{
-			var columnHeader = new ColumnHeader
-			{
-				Text = text,
-				Width = width
-			};
-			return columnHeader;
+			return new ColumnHeader { Text = text, Width = width };
 		}
 
 		#endregion public static method
