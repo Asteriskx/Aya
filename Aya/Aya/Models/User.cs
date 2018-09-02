@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Aya.Models
 {
@@ -18,12 +14,27 @@ namespace Aya.Models
 		/// <summary>
 		/// 
 		/// </summary>
-		public string Service { get; set; }
+		public string ServiceName { get; set; }
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public List<string> FileName { get; set; }
 
 		/// <summary>
 		/// 
 		/// </summary>
 		public int Count { get; set; }
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public string Progress { get; set; }
+
+		/// <summary>
+		/// 
+		/// </summary>
+		public string Status { get; set; }
 
 		/// <summary>
 		/// 

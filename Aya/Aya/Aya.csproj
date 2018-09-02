@@ -46,6 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exceptions\AyaException.cs" />
+    <Compile Include="Models\AyaDownloader.cs" />
+    <Compile Include="Models\FileReader.cs" />
+    <Compile Include="Models\Service\Service.cs" />
+    <Compile Include="Models\Service\Twitter\Twitter.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
